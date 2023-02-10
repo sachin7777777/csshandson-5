@@ -1,0 +1,219 @@
+.container{
+
+}
+.main{
+    
+}
+.list{
+    
+}
+.order{
+    
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.all{
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    margin: 30px;
+
+}
+.first:hover{
+    
+}
+.first{
+    background-color: red;
+    animation-name: sachin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+@keyframes sachin{
+    from{
+        transform: skewX(20deg);
+    }
+    to{
+        transform: skewX(-25deg);
+    }
+}
+.second{
+    animation-name: sachin2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: green;
+}
+@keyframes sachin2{
+    from{
+        transform: skewY(20deg);
+    }
+    to{
+        transform: skewY(-25deg);
+    }
+}
+
+.third{
+    animation-name: sachin3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color: blue;
+}
+@keyframes sachin3{
+    0%{
+        transform: rotate(360deg)
+    }
+    
+}
+.fourth1{
+    animation-name: sachin4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes sachin4{
+    0%{
+        transform: scaleY(1.5);
+    } 
+}
+.fourth2{
+    animation-name: sachin5;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes sachin5{
+    0%{
+        transform: scaleX(1.5);
+    }
+}
+.fourth3{
+    animation-name: sachin6;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes sachin6{
+    0%{
+        transform: rotate(90deg);
+    }
+    
+}
+.link{
+    margin: auto;
+    position: relative;
+    left: 624px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.poss{
+    position: absolute;
+    left: 682px;
+
+}
+.box1{
+    transition: width 3s;
+    transition-timing-function: linear;
+    transition-duration: 3s;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+
+}
+.box1:hover{
+    width: 400px;
+}
+
+.box2{
+    transition: height width;
+    transition-duration: 1s;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+.box2:hover{
+    width: 350px;
+    height: 350px;
+}
+.box3{
+    transition: width 3s;
+    transition-timing-function: ease;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+.box3:hover{
+    width: 400px;
+}
+.box4{
+    transition: width 3s;
+    transition-timing-function: ease-in;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    
+}
+.box4:hover{
+    width: 400px;
+}
+.box5{
+    transition: width 3s;
+    transition-timing-function: ease-out;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+.box5:hover{
+    width: 400px;
+}
+.box6{
+    transition: width 3s;
+    transition-timing-function: ease-in-out;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+.box6:hover{
+    width: 400px;
+}
+.box7{
+    transition: width 3s;
+    transition-timing-function: linear;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+.box7:hover{
+    width: 400px;
+}
+.mybut1{
+    position: absolute;
+    left: 750px;
+    top:850px;
+    font-size: 25px;
+    font-style: bold;
+    font-weight: 600;
+    color: deepskyblue;
+}
+.mybut2{
+    position: absolute;
+    left: 750px;
+    top: 887px;
+    font-size: 25px;
+    font-style: bold;
+    font-weight: 600;
+    color: deepskyblue;
+}
